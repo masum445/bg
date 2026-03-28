@@ -1,5 +1,5 @@
-flask
-flask-cors
-rembg[cpu]
-pillow
-onnxruntime
+flask==3.0.0
+flask-cors==4.0.0
+rembg[cpu]==2.0.52
+pillow==10.0.0
+onnxruntime==1.15.1
