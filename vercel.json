@@ -8,7 +8,11 @@
   ],
   "routes": [
     {
-      "src": "/api/remove-bg",
+      "src": "/remove-bg",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/(.*)",
       "dest": "api/index.py"
     }
   ]
